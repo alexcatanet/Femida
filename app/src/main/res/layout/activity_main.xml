@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.femida.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/interface_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/interface_image"
+            android:src="@drawable/law_b" />
+
+        <ImageView
+            android:id="@+id/femida_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/app_logo"
+            android:src="@drawable/femida_logo" />
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif"
+            android:text="@string/femida"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/company_name_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="60dp"
+            android:alpha="0.6"
+            android:text="@string/law_firm"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/company_moto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="serif"
+            android:text="@string/high_quality_legal_services"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/company_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="350dp"
+            android:text="@string/company_description"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/interface_image_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/interface_image"
+            android:contentDescription="@string/description_of_a_company"
+            android:src="@drawable/description" />
+
+        <ImageView
+            android:id="@+id/interface_image_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/interface_image_2"
+            android:contentDescription="@string/practice_areas"
+            android:src="@drawable/areas" />
+
+        <ImageView
+            android:id="@+id/interface_image_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/interface_image_3"
+            android:contentDescription="@string/team_members"
+            android:src="@drawable/team" />
+
+        <ImageView
+            android:id="@+id/interface_image_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/interface_image_4"
+            android:contentDescription="@string/about_us"
+            android:src="@drawable/about" />
+
+    </RelativeLayout>
+</ScrollView>

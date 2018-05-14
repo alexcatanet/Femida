@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Femida</string>
+    <string name="app_logo">app_logo</string>
+    <string name="femida">Femida</string>
+    <string name="law_firm">law firm</string>
+    <string name="high_quality_legal_services">High-Quality\nLegal Services</string>
+    <string name="company_description">Femida is a reliable law firm that was formed in  late 1989 and has been providing high-quality   legal services for more than 20 years. If you or   someone you love has faced the necessity of   professional assistance - we are here to help you   make the best legal decisions.</string>
+    <string name="interface_image">interface_image</string>
+    <string name="description_of_a_company">description of a company</string>
+    <string name="practice_areas">practice areas</string>
+    <string name="team_members">team members</string>
+    <string name="about_us">about us</string>
+</resources>
