@@ -1,6 +1,6 @@
 # Femida
 
-Designing and implementing a single screen app that displays information about a fictional law firm. 
+Designing and implementing a single screen app that displays information about a fictional Law Firm. 
 
 ## Requirements
 
